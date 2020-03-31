@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     <head>
-    <title>Elements - Phantom by HTML5 UP</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-  </head>
-  <body>
+      <title>Elements - Phantom by HTML5 UP</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="/assets/css/main.css" />
+      <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    </head>
 <!-- Wrapper -->
       <div id="wrapper">
 <!-- Header -->
@@ -20,7 +19,11 @@
 <!-- Nav -->
                 <nav>
                   <ul>
-                    <li><a href="#menu">Menu</a></li>
+                    <li>
+                      <a href="#menu">
+                      "Menu"
+                      </a>
+                    </li>
                   </ul>
                 </nav>
             </div>
@@ -29,7 +32,7 @@
           <nav id="menu">
             <h2>Menu</h2>
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="home.vue">Home</a></li>
               <li><a href="generic.html">Ipsum veroeros</a></li>
               <li><a href="generic.html">Tempus etiam</a></li>
               <li><a href="generic.html">Consequat dolor</a></li>
@@ -121,7 +124,6 @@
           </div>
         </footer>
       </div>
-    </body>
   </div>
 </template>
 
